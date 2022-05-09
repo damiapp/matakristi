@@ -408,6 +408,50 @@
         "name": "hodnik_desna_pretposlednja2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "wqby_8tsf_181121.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "wqby_8tsf_181121.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Repeat Arrow_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Repeat Arrow_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Buffs & Debuffs/Repeat Arrow_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Repeat Arrow_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Repeat Arrow_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Buffs & Debuffs/Repeat Arrow_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left arrow button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Left arrow button.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -640,10 +684,10 @@
             {
               "name": "Text_AutoTyping",
               "type": "AutoTyping::Text_AutoTyping",
-              "Interval": 0.05
+              "Interval": 0.001
             }
           ],
-          "string": "M1551N6 je detektivska igra logike i strpljenja. Ti radiš za matematičku policiju i tvoj zadatak je da otkriješ ko je ukrao dragocena dokumenta sa matematičkim dokazom. Igrajući, otkrićeš ko te laže a ko govori istinu, koristeći tautologija.  ",
+          "string": "M1551N6 je detektivska igra logike i strpljenja. Ti radiš za matematičku policiju i tvoj zadatak je da otkriješ ko je ukrao dragocena dokumenta sa matematičkim dokazom. Igrajući, otkrićeš ko te laže a ko govori istinu, koristeći tautološke izraze.  ",
           "font": "",
           "characterSize": 30,
           "color": {
@@ -655,6 +699,8 @@
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -699,12 +745,16 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -715,6 +765,8 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": false,
+          "folded": false,
           "name": "Dijalog",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -722,6 +774,8 @@
           "parameters": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -760,6 +814,8 @@
           "actions": [],
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -869,7 +925,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2599999755859375,
+        "zoomFactor": 0.3999999999999997,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -960,6 +1016,8 @@
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1064,7 +1122,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3999999999999997,
+        "zoomFactor": 0.41000000000000003,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1155,6 +1213,8 @@
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1199,6 +1259,8 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1291,7 +1353,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.45999999999999963,
+        "zoomFactor": 0.4599999999999998,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1305,6 +1367,10 @@
           "name": "Niz",
           "type": "array",
           "children": [
+            {
+              "type": "string",
+              "value": ""
+            },
             {
               "type": "string",
               "value": "Simone, Vi ste nam prvi osumnjičeni za krađu Larinih dokumenata, zato što jedini imate pristup svim prostorijama fakulteta."
@@ -1323,7 +1389,7 @@
             },
             {
               "type": "string",
-              "value": "Pitajte njega, on možda nešto zna. Sećam se da je pominjao trisekciju ugla."
+              "value": "Pitajte Njega, on možda nešto zna. Sećam se da je pominjao trisekciju ugla."
             }
           ]
         }
@@ -1405,6 +1471,38 @@
           "x": 976,
           "y": 104,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 510,
+          "layer": "",
+          "locked": false,
+          "name": "NasOblak",
+          "persistentUuid": "3564d312-be8f-49c2-b159-5daccb61ba78",
+          "width": 1998,
+          "x": -367,
+          "y": 550,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NasText",
+          "persistentUuid": "5bb94b7c-340a-4c9b-b081-131ca82fa4e0",
+          "width": 0,
+          "x": 188,
+          "y": 674,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1518,6 +1616,66 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "name": "NasOblak",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewFile-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "NasText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -1526,6 +1684,8 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": false,
+          "folded": false,
           "name": "Main",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1533,6 +1693,8 @@
           "parameters": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1558,6 +1720,18 @@
                 "Left"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                ">=",
+                "1"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -1577,10 +1751,44 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": false,
+          "folded": false,
           "name": "Dijalog",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1588,6 +1796,8 @@
           "parameters": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1617,17 +1827,57 @@
             {
               "type": {
                 "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                "<=",
+                "5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": [],
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -1644,12 +1894,196 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
                   },
                   "parameters": [
                     "Vrednost",
-                    "+",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Text",
+                    "=",
+                    "VariableString(Niz[Variable(Vrednost)])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "=",
+                    "5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Text",
+                    "=",
+                    "VariableString(Niz[Variable(Vrednost)])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "=",
                     "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "VariableString(Niz[Variable(Vrednost)])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Text",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "VariableString(Niz[Variable(Vrednost)])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Text",
+                    "=",
+                    "\"\""
                   ],
                   "subInstructions": []
                 }
@@ -1657,18 +2091,6 @@
               "events": []
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ],
       "layers": [
@@ -1898,6 +2320,8 @@
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1942,6 +2366,8 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -1997,7 +2423,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.30166663818359374,
+        "zoomFactor": 0.44166663818359386,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2013,15 +2439,19 @@
           "children": [
             {
               "type": "string",
+              "value": ""
+            },
+            {
+              "type": "string",
               "value": "Profesore Damjanoviću, sigurno ste čuli zašto smo ovde. Veoma nam je važno da utvrdimo gde su se nalazili ljudi, upućeni u Larin rad na geometriji nemogućeg za vreme nestanka dokumenata. "
             },
             {
               "type": "string",
-              "value": "Pretpostavljamo da je vaša koleginica Marija bila sa Vama?"
+              "value": " Pretpostavljamo da je vaša koleginica Marija bila sa Vama?"
             },
             {
               "type": "string",
-              "value": "Odmah da Vam kažem, Marija nije bila sa mnom i ne znam gde je bila, ali Vam mogu reći gde su bile ostale tri osobe. "
+              "value": "Odmah da Vam kažem, Marija nije bila sa mnom i ne znam gde je bila, ali Vam mogu reći gde su bile ostale tri osobe."
             },
             {
               "type": "string",
@@ -2095,6 +2525,38 @@
           "x": 660,
           "y": -15,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 603,
+          "layer": "",
+          "locked": false,
+          "name": "NewSprite",
+          "persistentUuid": "4f19e9f4-dacc-4f88-bdad-01c248628bec",
+          "width": 1211,
+          "x": -68,
+          "y": 551,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 141,
+          "layer": "",
+          "locked": false,
+          "name": "NasText",
+          "persistentUuid": "108887f2-e2d7-4cd1-8b88-df9d180502a4",
+          "width": 420,
+          "x": 350,
+          "y": 675,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2216,10 +2678,72 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "NasText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewFile-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2245,6 +2769,18 @@
                 "Left"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                ">=",
+                "1"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -2264,10 +2800,44 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": false,
+          "folded": false,
           "name": "Dijalog",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2275,6 +2845,8 @@
           "parameters": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2304,17 +2876,149 @@
             {
               "type": {
                 "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                "<=",
+                "5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": [],
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "VariableString(Niz[Variable(Vrednost)])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "VariableString(Niz[Variable(Vrednost)])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -2331,16 +3035,116 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
-                    "Vrednost",
-                    "+",
-                    "1"
+                    "NasText",
+                    "=",
+                    "\"\""
                   ],
                   "subInstructions": []
                 }
               ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "=",
+                    "VariableString(Niz[Variable(Vrednost)])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "=",
+                    "5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "=",
+                    "VariableString(Niz[Variable(Vrednost)])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
               "events": []
             }
           ]
@@ -2406,7 +3210,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5000000488281248,
+        "zoomFactor": 0.29333339843749956,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2420,6 +3224,10 @@
           "name": "Niz",
           "type": "array",
           "children": [
+            {
+              "type": "string",
+              "value": ""
+            },
             {
               "type": "string",
               "value": "Laro, mi smo iz matematičke policije. Došli smo zbog tvoje prijave nestalih dokumenata iz oblasti geometrije nemogućeg. "
@@ -2490,7 +3298,7 @@
           "height": 107,
           "layer": "Text",
           "locked": false,
-          "name": "Text",
+          "name": "NewText",
           "persistentUuid": "625d264f-62e6-49b0-a009-54463c3c4044",
           "width": 293,
           "x": 901,
@@ -2512,6 +3320,38 @@
           "x": 717,
           "y": 190,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 431,
+          "layer": "",
+          "locked": false,
+          "name": "NewSprite",
+          "persistentUuid": "95c2d32a-9149-4240-8f8c-fada71b3b2f0",
+          "width": 727,
+          "x": 373,
+          "y": -13,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "",
+          "locked": false,
+          "name": "NasText",
+          "persistentUuid": "d69fc659-7a8c-4f4b-8e03-4484d1d8c313",
+          "width": 276,
+          "x": 652,
+          "y": 76,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2593,7 +3433,7 @@
         {
           "bold": false,
           "italic": false,
-          "name": "Text",
+          "name": "NewText",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -2625,19 +3465,145 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewFile-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "NasText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "LeftArrowButton",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Hodnik4\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         },
         {
@@ -2645,64 +3611,17 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": false,
+          "folded": false,
           "name": "Dijalog",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "LeftArrowButton",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Hodnik4\"",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
-              "events": []
-            }
-          ],
+          "events": [],
           "parameters": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2732,17 +3651,57 @@
             {
               "type": {
                 "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                "<=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": [],
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -2750,7 +3709,7 @@
                     "value": "TextObject::String"
                   },
                   "parameters": [
-                    "Text",
+                    "NewText",
                     "=",
                     "VariableString(Niz[Variable(Vrednost)])"
                   ],
@@ -2759,12 +3718,104 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
                   },
                   "parameters": [
                     "Vrednost",
-                    "+",
-                    "1"
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "VariableString(Niz[Variable(Vrednost)])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "=",
+                    "VariableString(Niz[Variable(Vrednost)])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "\"\""
                   ],
                   "subInstructions": []
                 }
@@ -2909,6 +3960,8 @@
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3018,6 +4071,10 @@
           "children": [
             {
               "type": "string",
+              "value": ""
+            },
+            {
+              "type": "string",
               "value": "Prodekanko Naumović, možete li da nam kažete ako znate nešto vezano za slučaj nestanka Larinih dokumenata o geometriji nemogućeg?"
             },
             {
@@ -3067,14 +4124,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 149,
+          "height": 181,
           "layer": "text",
           "locked": false,
-          "name": "Text",
+          "name": "NewText",
           "persistentUuid": "111e5256-143a-47a9-ba65-9dec7bf3f875",
-          "width": 388,
-          "x": 878,
-          "y": 193,
+          "width": 434,
+          "x": 858,
+          "y": 187,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -3104,10 +4161,42 @@
           "locked": false,
           "name": "NewPanelSprite",
           "persistentUuid": "ca34e113-f9cc-4454-b43f-db119578ad02",
-          "width": 909,
-          "x": 596,
+          "width": 1039,
+          "x": 536,
           "y": 30,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 462,
+          "layer": "",
+          "locked": false,
+          "name": "NewSprite",
+          "persistentUuid": "43685103-dd58-4d4f-ae50-ec91479de005",
+          "width": 704,
+          "x": 193,
+          "y": 583,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 105,
+          "layer": "",
+          "locked": false,
+          "name": "NasText",
+          "persistentUuid": "17ca544d-ec2f-440a-b9de-40a03e37bfde",
+          "width": 377,
+          "x": 395,
+          "y": 681,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3149,7 +4238,7 @@
         {
           "bold": false,
           "italic": false,
-          "name": "Text",
+          "name": "NewText",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -3221,66 +4310,163 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewFile-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "NasText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "LeftArrowButton",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Hodnik5\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": false,
+          "folded": false,
           "name": "Dijalog",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "LeftArrowButton",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Hodnik5\"",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
+          "events": [],
           "parameters": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3310,17 +4496,57 @@
             {
               "type": {
                 "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                "<=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": [],
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -3328,7 +4554,7 @@
                     "value": "TextObject::String"
                   },
                   "parameters": [
-                    "Text",
+                    "NasText",
                     "=",
                     "VariableString(Niz[Variable(Vrednost)])"
                   ],
@@ -3337,12 +4563,104 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
                   },
                   "parameters": [
                     "Vrednost",
-                    "+",
-                    "1"
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "=",
+                    "VariableString(Niz[Variable(Vrednost)])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "=",
+                    "VariableString(Niz[Variable(Vrednost)])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "\"\""
                   ],
                   "subInstructions": []
                 }
@@ -3350,36 +4668,6 @@
               "events": []
             }
           ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": true,
-          "name": "",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ],
       "layers": [
@@ -3517,6 +4805,8 @@
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3626,6 +4916,10 @@
           "children": [
             {
               "type": "string",
+              "value": ""
+            },
+            {
+              "type": "string",
               "value": "Marija, šta vi znate o geometriji nemogućeg, i još važnije, gde ste bili za vreme nestanka Larinih dokumenata?"
             },
             {
@@ -3682,7 +4976,7 @@
           "height": 133,
           "layer": "text",
           "locked": false,
-          "name": "Text",
+          "name": "NewText",
           "persistentUuid": "75d3296c-c611-4263-98ab-44d236f57c40",
           "width": 349,
           "x": 888,
@@ -3720,6 +5014,38 @@
           "x": 669,
           "y": 120,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 464,
+          "layer": "",
+          "locked": false,
+          "name": "NewSprite",
+          "persistentUuid": "121da122-6841-4341-8d46-6da16f252624",
+          "width": 560,
+          "x": 244,
+          "y": -29,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 122,
+          "layer": "",
+          "locked": false,
+          "name": "NasText",
+          "persistentUuid": "4c05c0d1-fb8c-4fde-8165-b6f9efb77ed3",
+          "width": 316,
+          "x": 401,
+          "y": 67,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3761,7 +5087,7 @@
         {
           "bold": false,
           "italic": false,
-          "name": "Text",
+          "name": "NewText",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -3769,7 +5095,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Matematička policija?!?",
+          "string": "",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -3833,10 +5159,72 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewFile-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "NasText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3878,41 +5266,56 @@
               "subInstructions": []
             }
           ],
-          "events": [
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [],
-                  "events": []
-                }
-              ]
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
             }
-          ]
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": false,
+          "folded": false,
           "name": "Dijalog",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
-              "events": []
-            }
-          ],
+          "events": [],
           "parameters": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3942,17 +5345,57 @@
             {
               "type": {
                 "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                "<=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": [],
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -3960,7 +5403,7 @@
                     "value": "TextObject::String"
                   },
                   "parameters": [
-                    "Text",
+                    "NasText",
                     "=",
                     "VariableString(Niz[Variable(Vrednost)])"
                   ],
@@ -3969,12 +5412,150 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
                   },
                   "parameters": [
                     "Vrednost",
-                    "+",
-                    "1"
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "=",
+                    "VariableString(Niz[Variable(Vrednost)])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "VariableString(Niz[Variable(Vrednost)])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "=",
+                    "VariableString(Niz[Variable(Vrednost)])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NasText",
+                    "=",
+                    "\"\""
                   ],
                   "subInstructions": []
                 }
@@ -4165,6 +5746,8 @@
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4274,6 +5857,10 @@
           "children": [
             {
               "type": "string",
+              "value": ""
+            },
+            {
+              "type": "string",
               "value": "Petre, napominjem da sam ja iz matematičke policije i da ste dužni da govorite samo tautologije. Bavite se geometrijom nemogućeg kao i Lara, što Vas čini pomalo ludim ali definitivno glavnim osumnjičenim za nestanak dokumenata. Šta imate da kažete u svoju odbranu?"
             },
             {
@@ -4325,7 +5912,7 @@
           "initialVariables": []
         },
         {
-          "angle": 177.86129760742188,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -4333,8 +5920,8 @@
           "name": "LeftArrowButton",
           "persistentUuid": "64136fdf-d2fe-4a54-ac14-1b21cf641481",
           "width": 0,
-          "x": 1485,
-          "y": 777,
+          "x": 83,
+          "y": 55,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -4343,14 +5930,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 247,
+          "height": 217,
           "layer": "text",
           "locked": false,
-          "name": "Text",
+          "name": "NewText",
           "persistentUuid": "7dfae557-4636-4c53-be1a-6e432253b222",
-          "width": 430,
-          "x": 724,
-          "y": 143,
+          "width": 325,
+          "x": 766,
+          "y": 152,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -4368,6 +5955,38 @@
           "x": 463,
           "y": -46,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 427,
+          "layer": "",
+          "locked": false,
+          "name": "NewSprite",
+          "persistentUuid": "7c3800ed-e98a-4412-8ccd-6b43b8a14d57",
+          "width": 901,
+          "x": 639,
+          "y": 652,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 119,
+          "layer": "",
+          "locked": false,
+          "name": "NasText",
+          "persistentUuid": "815f8aa0-b4e1-4e4c-a165-9006a011e5c0",
+          "width": 511,
+          "x": 882,
+          "y": 730,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4449,7 +6068,7 @@
         {
           "bold": false,
           "italic": false,
-          "name": "Text",
+          "name": "NewText",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -4457,7 +6076,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Matematička policija?!?",
+          "string": "",
           "font": "",
           "characterSize": 25,
           "color": {
@@ -4481,93 +6100,72 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewFile-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "NasText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Dijalog",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "lik",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "Text",
-                        "=",
-                        "VariableString(Niz[Variable(Vrednost)])"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "Vrednost",
-                        "+",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4603,13 +6201,310 @@
               },
               "parameters": [
                 "",
-                "\"Spisi\"",
+                "\"Odgovor\"",
                 ""
               ],
               "subInstructions": []
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Vrednost",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Dijalog",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lik",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "<=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Vrednost",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "Vrednost",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "NasText",
+                        "=",
+                        "VariableString(Niz[Variable(Vrednost)])"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "NewText",
+                        "=",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "Vrednost",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "NewText",
+                        "=",
+                        "VariableString(Niz[Variable(Vrednost)])"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "NasText",
+                        "=",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "Vrednost",
+                        "=",
+                        "3"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "NasText",
+                        "=",
+                        "VariableString(Niz[Variable(Vrednost)])"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "NewText",
+                        "=",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "Vrednost",
+                        "=",
+                        "4\n"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "NewText",
+                        "=",
+                        "VariableString(Niz[Variable(Vrednost)])"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "NasText",
+                        "=",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -4747,6 +6642,8 @@
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4840,7 +6737,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.29166673583984337,
+        "zoomFactor": 0.4199999999999996,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4915,6 +6812,8 @@
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4927,6 +6826,17 @@
                 "",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
               ],
               "subInstructions": []
             }
@@ -4977,8 +6887,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Spisi",
-      "name": "Spisi",
+      "mangledName": "Odgovor",
+      "name": "Odgovor",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -4987,17 +6897,1430 @@
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
-      "uiSettings": {},
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.4599999999999996,
+        "windowMask": false
+      },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 888.7674560546875,
+          "layer": "",
+          "locked": false,
+          "name": "NewSprite",
+          "persistentUuid": "d155b305-e32b-4eca-904f-58e304dec7af",
+          "width": 1704,
+          "x": -9,
+          "y": -6.7674560546875,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "NewText",
+          "persistentUuid": "bdd48216-14b6-4de8-a5e3-c25d4ea13efb",
+          "width": 1180,
+          "x": 255,
+          "y": 107,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 70,
+          "layer": "",
+          "locked": false,
+          "name": "NewText2",
+          "persistentUuid": "c7b5d305-91be-43f7-bd3a-14577749699a",
+          "width": 266,
+          "x": 302,
+          "y": 246,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 68,
+          "layer": "",
+          "locked": false,
+          "name": "NewText3",
+          "persistentUuid": "4799a7ba-4ef2-4434-9503-ffaef9f3333f",
+          "width": 181,
+          "x": 674,
+          "y": 230,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 73,
+          "layer": "",
+          "locked": false,
+          "name": "NewText4",
+          "persistentUuid": "3061be07-884c-459f-a97b-bdb042cea325",
+          "width": 207,
+          "x": 971,
+          "y": 215,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 86,
+          "layer": "",
+          "locked": false,
+          "name": "NewText5",
+          "persistentUuid": "ac579029-1f3a-4c6e-a14c-baa960b87de6",
+          "width": 183,
+          "x": 389,
+          "y": 381,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 86,
+          "layer": "",
+          "locked": false,
+          "name": "NewText6",
+          "persistentUuid": "03472330-a00e-4941-a48f-81b76934f78c",
+          "width": 139,
+          "x": 738,
+          "y": 384,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 84,
+          "layer": "",
+          "locked": false,
+          "name": "NewText7",
+          "persistentUuid": "8c658dbb-32c0-46a6-b9eb-a39381cd51e6",
+          "width": 161,
+          "x": 1061,
+          "y": 384,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewSprite2",
+          "persistentUuid": "e807fdff-df8d-4803-8252-bf7a433ff995",
+          "width": 0,
+          "x": 1458,
+          "y": 738,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewText8",
+          "persistentUuid": "df19fd3d-0901-43c3-85cd-61fd515c5ec3",
+          "width": 0,
+          "x": 1423,
+          "y": 690,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "wqby_8tsf_181121.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "NewText5",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "4. Marija",
+          "font": "",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "NewText4",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "3. Prodekanka Naumović",
+          "font": "",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "NewText3",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "2. Profesor Damjanović",
+          "font": "",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "NewText2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "1. Bibliotekar Simon",
+          "font": "",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "NewText6",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "5. Petar",
+          "font": "",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "NewText7",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "6. Lara",
+          "font": "",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Šta mislite, ko je ukrao Larine dokumente? (Kliknite na ime osobe)",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "NewSprite2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Left arrow button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "NewText8",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Igraj opet!",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "NewSprite2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "NewText8"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "NewText2",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText",
+                "=",
+                "\"Larini papiri su ukradeni od strane iracionalne Marije, a kako to znamo?\n\nU prvoj sobi smo od bibliotekara Simona smo saznali da, iako je on mogao da ukrade, nije bio u Srbiji. Odatle sledi da je Simon nevin.\n\nU drugoj sobi, profesor Damjanović nam je postavio zadatak iz koga smo saznali sledeće iskaze:\nMarija nije bila sa njime na fakultetu\nProdekanka nije bila na fakultetu, ni u laboratoriji; odatle sledi da je bila kod kuće\nPetar nije bio u laboratoriji, a ni kod kuće jer je tamo bila prodekanka. Tako saznajemo da je on bio na fakultetu.\nPošto smo isključili fakultet i kuću, možemo da zaključimo da je Lara bila u laboratoriji\n\nU trećoj sobi, Lara nam daje informaciju da je neko od njenih profesora bio sa njom u laboratoriji. Ovde još uvek nije moguće zaključiti da li je sa Larom bio profesor ili asistentkinja Marija.\n\nOd prodekanke Naumović smo u četvrtoj sobi saznali:\nPotvrdu da nije bila na fakultetu, što se slaže sa prethodnim iskazom profesora Damjanovića\nMarija UVEK laže\n\nU petoj sobi, Marija nam je rekla da je ona bila u laboratoriji, ali mi znamo da to nije istina i to nam je potvrdila i prodekanka. Takođe je kazala da je Petara poslednji put videla u profesorovoj kancelariji, ali to opet nije istina. Sistemom eliminacije, izbalici smo sve ostale osumnjičene, tako da se zaključuje da je ona ukrala Larine papire.\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText2",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText3",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText4",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText5",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText6",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText7",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "NewText",
+                "=",
+                "20"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "NewSprite2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "NewText8",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "NewText3",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText2",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText",
+                "=",
+                "\"Larini papiri su ukradeni od strane iracionalne Marije, a kako to znamo?\n\nU prvoj sobi smo od bibliotekara Simona smo saznali da, iako je on mogao da ukrade, nije bio u Srbiji. Odatle sledi da je Simon nevin.\n\nU drugoj sobi, profesor Damjanović nam je postavio zadatak iz koga smo saznali sledeće iskaze:\nMarija nije bila sa njime na fakultetu\nProdekanka nije bila na fakultetu, ni u laboratoriji; odatle sledi da je bila kod kuće\nPetar nije bio u laboratoriji, a ni kod kuće jer je tamo bila prodekanka. Tako saznajemo da je on bio na fakultetu.\nPošto smo isključili fakultet i kuću, možemo da zaključimo da je Lara bila u laboratoriji\n\nU trećoj sobi, Lara nam daje informaciju da je neko od njenih profesora bio sa njom u laboratoriji. Ovde još uvek nije moguće zaključiti da li je sa Larom bio profesor ili asistentkinja Marija.\n\nOd prodekanke Naumović smo u četvrtoj sobi saznali:\nPotvrdu da nije bila na fakultetu, što se slaže sa prethodnim iskazom profesora Damjanovića\nMarija UVEK laže\n\nU petoj sobi, Marija nam je rekla da je ona bila u laboratoriji, ali mi znamo da to nije istina i to nam je potvrdila i prodekanka. Takođe je kazala da je Petara poslednji put videla u profesorovoj kancelariji, ali to opet nije istina. Sistemom eliminacije, izbalici smo sve ostale osumnjičene, tako da se zaključuje da je ona ukrala Larine papire.\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText3",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText4",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText5",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText7",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText6",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "NewText",
+                "=",
+                "20"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "NewSprite2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "NewText8",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "NewText4",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText2",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText",
+                "=",
+                "\"Larini papiri su ukradeni od strane iracionalne Marije, a kako to znamo?\n\nU prvoj sobi smo od bibliotekara Simona smo saznali da, iako je on mogao da ukrade, nije bio u Srbiji. Odatle sledi da je Simon nevin.\n\nU drugoj sobi, profesor Damjanović nam je postavio zadatak iz koga smo saznali sledeće iskaze:\nMarija nije bila sa njime na fakultetu\nProdekanka nije bila na fakultetu, ni u laboratoriji; odatle sledi da je bila kod kuće\nPetar nije bio u laboratoriji, a ni kod kuće jer je tamo bila prodekanka. Tako saznajemo da je on bio na fakultetu.\nPošto smo isključili fakultet i kuću, možemo da zaključimo da je Lara bila u laboratoriji\n\nU trećoj sobi, Lara nam daje informaciju da je neko od njenih profesora bio sa njom u laboratoriji. Ovde još uvek nije moguće zaključiti da li je sa Larom bio profesor ili asistentkinja Marija.\n\nOd prodekanke Naumović smo u četvrtoj sobi saznali:\nPotvrdu da nije bila na fakultetu, što se slaže sa prethodnim iskazom profesora Damjanovića\nMarija UVEK laže\n\nU petoj sobi, Marija nam je rekla da je ona bila u laboratoriji, ali mi znamo da to nije istina i to nam je potvrdila i prodekanka. Takođe je kazala da je Petara poslednji put videla u profesorovoj kancelariji, ali to opet nije istina. Sistemom eliminacije, izbalici smo sve ostale osumnjičene, tako da se zaključuje da je ona ukrala Larine papire.\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText3",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText4",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText5",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText7",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText6",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "NewText",
+                "=",
+                "20"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "NewSprite2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "NewText8",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "NewText5",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText2",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText",
+                "=",
+                "\"Larini papiri su ukradeni od strane iracionalne Marije, a kako to znamo?\n\nU prvoj sobi smo od bibliotekara Simona smo saznali da, iako je on mogao da ukrade, nije bio u Srbiji. Odatle sledi da je Simon nevin.\n\nU drugoj sobi, profesor Damjanović nam je postavio zadatak iz koga smo saznali sledeće iskaze:\nMarija nije bila sa njime na fakultetu\nProdekanka nije bila na fakultetu, ni u laboratoriji; odatle sledi da je bila kod kuće\nPetar nije bio u laboratoriji, a ni kod kuće jer je tamo bila prodekanka. Tako saznajemo da je on bio na fakultetu.\nPošto smo isključili fakultet i kuću, možemo da zaključimo da je Lara bila u laboratoriji\n\nU trećoj sobi, Lara nam daje informaciju da je neko od njenih profesora bio sa njom u laboratoriji. Ovde još uvek nije moguće zaključiti da li je sa Larom bio profesor ili asistentkinja Marija.\n\nOd prodekanke Naumović smo u četvrtoj sobi saznali:\nPotvrdu da nije bila na fakultetu, što se slaže sa prethodnim iskazom profesora Damjanovića\nMarija UVEK laže\n\nU petoj sobi, Marija nam je rekla da je ona bila u laboratoriji, ali mi znamo da to nije istina i to nam je potvrdila i prodekanka. Takođe je kazala da je Petara poslednji put videla u profesorovoj kancelariji, ali to opet nije istina. Sistemom eliminacije, izbalici smo sve ostale osumnjičene, tako da se zaključuje da je ona ukrala Larine papire.\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText3",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText4",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText5",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText7",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText6",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "NewText",
+                "=",
+                "20"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "NewSprite2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "NewText8",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "NewText6",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText2",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText",
+                "=",
+                "\"Larini papiri su ukradeni od strane iracionalne Marije, a kako to znamo?\n\nU prvoj sobi smo od bibliotekara Simona smo saznali da, iako je on mogao da ukrade, nije bio u Srbiji. Odatle sledi da je Simon nevin.\n\nU drugoj sobi, profesor Damjanović nam je postavio zadatak iz koga smo saznali sledeće iskaze:\nMarija nije bila sa njime na fakultetu\nProdekanka nije bila na fakultetu, ni u laboratoriji; odatle sledi da je bila kod kuće\nPetar nije bio u laboratoriji, a ni kod kuće jer je tamo bila prodekanka. Tako saznajemo da je on bio na fakultetu.\nPošto smo isključili fakultet i kuću, možemo da zaključimo da je Lara bila u laboratoriji\n\nU trećoj sobi, Lara nam daje informaciju da je neko od njenih profesora bio sa njom u laboratoriji. Ovde još uvek nije moguće zaključiti da li je sa Larom bio profesor ili asistentkinja Marija.\n\nOd prodekanke Naumović smo u četvrtoj sobi saznali:\nPotvrdu da nije bila na fakultetu, što se slaže sa prethodnim iskazom profesora Damjanovića\nMarija UVEK laže\n\nU petoj sobi, Marija nam je rekla da je ona bila u laboratoriji, ali mi znamo da to nije istina i to nam je potvrdila i prodekanka. Takođe je kazala da je Petara poslednji put videla u profesorovoj kancelariji, ali to opet nije istina. Sistemom eliminacije, izbalici smo sve ostale osumnjičene, tako da se zaključuje da je ona ukrala Larine papire.\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText3",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText4",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText5",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText7",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText6",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "NewText",
+                "=",
+                "20"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "NewSprite2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "NewText8",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "NewText7",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText2",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText",
+                "=",
+                "\"Larini papiri su ukradeni od strane iracionalne Marije, a kako to znamo?\n\nU prvoj sobi smo od bibliotekara Simona smo saznali da, iako je on mogao da ukrade, nije bio u Srbiji. Odatle sledi da je Simon nevin.\n\nU drugoj sobi, profesor Damjanović nam je postavio zadatak iz koga smo saznali sledeće iskaze:\nMarija nije bila sa njime na fakultetu\nProdekanka nije bila na fakultetu, ni u laboratoriji; odatle sledi da je bila kod kuće\nPetar nije bio u laboratoriji, a ni kod kuće jer je tamo bila prodekanka. Tako saznajemo da je on bio na fakultetu.\nPošto smo isključili fakultet i kuću, možemo da zaključimo da je Lara bila u laboratoriji\n\nU trećoj sobi, Lara nam daje informaciju da je neko od njenih profesora bio sa njom u laboratoriji. Ovde još uvek nije moguće zaključiti da li je sa Larom bio profesor ili asistentkinja Marija.\n\nOd prodekanke Naumović smo u četvrtoj sobi saznali:\nPotvrdu da nije bila na fakultetu, što se slaže sa prethodnim iskazom profesora Damjanovića\nMarija UVEK laže\n\nU petoj sobi, Marija nam je rekla da je ona bila u laboratoriji, ali mi znamo da to nije istina i to nam je potvrdila i prodekanka. Takođe je kazala da je Petara poslednji put videla u profesorovoj kancelariji, ali to opet nije istina. Sistemom eliminacije, izbalici smo sve ostale osumnjičene, tako da se zaključuje da je ona ukrala Larine papire.\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText3",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText4",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText5",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText7",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText6",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "NewText",
+                "=",
+                "20"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "NewSprite2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "NewText8",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "NewSprite2",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Start\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
       "layers": [
         {
-          "ambientLightColorB": 1,
-          "ambientLightColorG": 134217728,
-          "ambientLightColorR": 1597132097,
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 1869182049,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "",
@@ -5064,6 +8387,8 @@
               "sentence": "",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -5077,6 +8402,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -5141,6 +8468,8 @@
               "sentence": "",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -5154,6 +8483,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5215,6 +8546,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -5228,6 +8561,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -5273,6 +8608,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -5286,6 +8623,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -5299,6 +8638,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5340,6 +8681,8 @@
                   "actions": [],
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -5373,6 +8716,8 @@
                       ],
                       "events": [
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -5408,6 +8753,8 @@
                       ]
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -5441,6 +8788,8 @@
                       "events": []
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -5489,6 +8838,8 @@
                   ]
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -5502,6 +8853,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5521,6 +8874,8 @@
                   "actions": [],
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -5554,6 +8909,8 @@
                       ],
                       "events": [
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -5589,6 +8946,8 @@
                       ]
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -5622,6 +8981,8 @@
                       "events": []
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -5668,6 +9029,8 @@
                       "events": []
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Repeat",
                       "repeatExpression": "5",
                       "conditions": [],
@@ -5730,6 +9093,8 @@
                   ]
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -5743,6 +9108,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5762,6 +9129,8 @@
                   "actions": [],
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -5795,6 +9164,8 @@
                       ],
                       "events": [
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -5830,6 +9201,8 @@
                       ]
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -5863,6 +9236,8 @@
                       "events": []
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -5909,6 +9284,8 @@
                       "events": []
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Repeat",
                       "repeatExpression": "5",
                       "conditions": [],
@@ -5971,6 +9348,8 @@
                   ]
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -5984,6 +9363,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -6003,6 +9384,8 @@
                   "actions": [],
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -6036,6 +9419,8 @@
                       ],
                       "events": [
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -6071,6 +9456,8 @@
                       ]
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -6104,6 +9491,8 @@
                       "events": []
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -6150,6 +9539,8 @@
                       "events": []
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Repeat",
                       "repeatExpression": "5",
                       "conditions": [],
@@ -6211,6 +9602,8 @@
                   ]
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -6258,6 +9651,8 @@
               "sentence": "",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -6271,6 +9666,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -6351,6 +9748,8 @@
               "sentence": "Paint effect type _PARAM4_ of _PARAM0_ with direction _PARAM5_ and color _PARAM2_ for _PARAM3_ seconds",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -6364,6 +9763,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -6427,6 +9828,8 @@
                   ],
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -6460,6 +9863,8 @@
                       "events": []
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -6493,6 +9898,8 @@
                       "events": []
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -6527,6 +9934,8 @@
                       "events": []
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -6561,6 +9970,8 @@
                       "events": []
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -6607,6 +10018,8 @@
                       "events": []
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -6640,6 +10053,8 @@
                       "events": []
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -6745,6 +10160,8 @@
               "sentence": "When paint effect of _PARAM0_ ends",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -6758,6 +10175,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -6823,6 +10242,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -6992,6 +10413,8 @@
               "sentence": "",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -7057,6 +10480,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -7089,6 +10514,8 @@
                   ],
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -7135,6 +10562,8 @@
                   ]
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -7166,6 +10595,8 @@
                   ],
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -7271,6 +10702,8 @@
               "sentence": "When _PARAM0_ finished auto typing",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -7336,6 +10769,8 @@
               "sentence": "Pause auto typing of _PARAM0_",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -7388,6 +10823,8 @@
               "sentence": "Resume auto typing of _PARAM0_",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -7440,6 +10877,8 @@
               "sentence": "_PARAM0_ is on pause",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -7503,6 +10942,8 @@
               "sentence": "Set the interval between characters of _PARAM0_ to _PARAM2_",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -7596,6 +11037,8 @@
               "sentence": "",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -7661,6 +11104,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -7693,6 +11138,8 @@
                   ],
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -7739,6 +11186,8 @@
                   ]
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -7770,6 +11219,8 @@
                   ],
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -7875,6 +11326,8 @@
               "sentence": "When _PARAM0_ finished auto typing",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -7940,6 +11393,8 @@
               "sentence": "Pause auto typing of _PARAM0_",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -7992,6 +11447,8 @@
               "sentence": "Resume auto typing of _PARAM0_",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -8044,6 +11501,8 @@
               "sentence": "_PARAM0_ is on pause",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -8107,6 +11566,8 @@
               "sentence": "Set the interval between characters of _PARAM0_ to _PARAM2_",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -8200,6 +11661,8 @@
               "sentence": "",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -8265,6 +11728,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -8297,6 +11762,8 @@
                   ],
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -8343,6 +11810,8 @@
                   ]
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -8374,6 +11843,8 @@
                   ],
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -8479,6 +11950,8 @@
               "sentence": "When _PARAM0_ finished auto typing",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -8544,6 +12017,8 @@
               "sentence": "Pause auto typing of _PARAM0_",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -8596,6 +12071,8 @@
               "sentence": "Resume auto typing of _PARAM0_",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -8648,6 +12125,8 @@
               "sentence": "_PARAM0_ is on pause",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -8711,6 +12190,8 @@
               "sentence": "Set the interval between characters of _PARAM0_ to _PARAM2_",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
